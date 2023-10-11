@@ -53,4 +53,4 @@ folium.GeoJson(str(root.joinpath('ciclovias.geojson')), name='Bicis').add_to(map
 
 folium.LayerControl().add_to(mapa)
 
-mapa.save('aver.html')
+mapa.save('mapita.html')
